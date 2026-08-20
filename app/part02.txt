@@ -1,0 +1,117 @@
+inment{background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Nose%20of%20A400M.jpg")}
+.theory-visual.sanding{background-image:url("https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1803/4191499/1000w_q95.jpg")}
+.theory-visual.lev{background-image:url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Airbus%20A400M%20EC-404%20ILA%202012%2014.jpg");background-size:contain;background-color:#0b1928}
+.deep {
+  margin-top:14px;border:1px solid #31506a;background:#091b2b;border-radius:16px;overflow:hidden
+}
+.deep summary {
+  cursor:pointer;padding:14px 16px;font-weight:900;color:#eaf6ff;list-style:none;background:linear-gradient(180deg,#102a42,#0c2237)
+}
+.deep summary::-webkit-details-marker{display:none}
+.deep summary::after{content:"＋";float:right;color:var(--cyan)}
+.deep[open] summary::after{content:"−"}
+.deep-body{padding:16px 18px}
+.deep-body p,.deep-body li{color:#c8d6e4;line-height:1.78}
+.deep-body ul,.deep-body ol{padding-left:22px}
+.learning-table{width:100%;border-collapse:collapse;margin-top:12px}
+.learning-table th,.learning-table td{padding:11px 12px;border:1px solid #29465e;text-align:left;vertical-align:top;line-height:1.55}
+.learning-table th{background:#102a42;color:#fff}
+.learning-table td{color:#cad8e5}
+.kb-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.kb-module{padding:22px;border:1px solid #2c4a63;border-radius:20px;background:linear-gradient(180deg,#10263c,#0b1c2d)}
+.kb-module h3{font-size:24px;margin-bottom:10px}
+.kb-module p,.kb-module li{color:#cbd8e5;line-height:1.75}
+.kb-module ul{padding-left:20px}
+.kb-module.wide{grid-column:1/-1}
+.release-visual {
+  min-height:360px;border-radius:24px;border:1px solid #3c5b72;
+  background-image:linear-gradient(180deg,rgba(5,15,24,.10),rgba(5,15,24,.55)),url("https://commons.wikimedia.org/wiki/Special:Redirect/file/A400M-nose.jpg");
+  position:relative;overflow:hidden;margin-bottom:18px
+}
+.release-visual .release-label {
+  position:absolute;left:18px;bottom:18px;right:18px;background:rgba(5,16,27,.90);border:1px solid rgba(255,255,255,.15);
+  border-radius:16px;padding:14px 16px;backdrop-filter:blur(12px)
+}
+.release-visual .release-label b{display:block;font-size:18px;margin-bottom:5px}
+.release-visual .release-label span{color:#c8d6e4;line-height:1.55}
+@media(max-width:1000px){.kb-grid{grid-template-columns:1fr}.kb-module.wide{grid-column:auto}.scene-status{max-width:78%}}
+
+</style>
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">CG</div><div>TASSG Composite Guardian<div style="font-size:11px;color:var(--muted);font-weight:700">In-Service / Composite Repair & Soil Protection</div></div></div>
+    <div class="nav-actions">
+      <button class="btn ghost" id="backBtn">← Back</button>
+      <button class="btn ghost" data-go="home">Home</button>
+      <button class="btn" data-go="how">How to Play</button>
+      <button class="btn" data-go="knowledge">Knowledge Base</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="screen active">
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Serious game · In-Service maintenance</div>
+          <h1>Contain the repair.<br>Protect the ground.</h1>
+          <p>You are responsible for preparing a controlled composite-repair bay around the forward section of an A400M for a training radome surface-preparation scenario. The sanding operation can release fine particulate made of carbon-fibre fragments, polymer-matrix debris and other repair residues. Your job is to keep the repair safe, traceable and operationally viable — without allowing particulate to migrate to adjacent soil or drainage.</p>
+          <div class="callout warn"><b>Training accuracy:</b> this simulator does not label all composite dust as universally “toxic”. Risk depends on the material system, particle size and exposure pathway. The environmental principle is simpler: <b>prevent uncontrolled release, capture at source, collect residues and verify the area before reopening.</b></div>
+          <div class="hero-actions"><button class="btn primary" data-go="briefing">Start Operation</button><button class="btn" data-go="how">How to Play</button></div>
+          <div class="mini-grid"><div class="mini"><strong>5</strong><span>operational stages</span></div><div class="mini"><strong>3</strong><span>performance indicators</span></div><div class="mini"><strong>1</strong><span>final audit decision</span></div></div>
+        </div>
+        <div class="visual-stage realistic">
+          <div class="real-photo-tag">Real A400M maintenance photography</div>
+          <div class="hero-hud"><div class="hud-card"><b>LEV</b><span>Capture at source</span></div><div class="hud-card"><b>Boundary</b><span>Prevent migration</span></div><div class="hud-card"><b>EMS</b><span>Verify & learn</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="screen">
+      <div class="page"><div class="page-head"><div><div class="eyebrow">Before mission 1</div><h2>How the simulator works</h2><p>This is a procedural decision game. You are not looking for one magic device; you are building a complete control chain from preparation to reopening.</p></div></div>
+      <div class="how-grid">
+        <div class="step-card"><div class="step-no">1</div><h3>Configure the bay</h3><p>Choose barriers, drainage protection and access controls. Decisions immediately change your risk profile.</p></div>
+        <div class="step-card"><div class="step-no">2</div><h3>Capture at source</h3><p>Select the sanding and extraction approach. The best answer controls particulate as close as practicable to the point of generation.</p></div>
+        <div class="step-card"><div class="step-no">3</div><h3>Close the job</h3><p>Clean, segregate residues, inspect the perimeter and document what happened before reopening the area.</p></div>
+      </div>
+      <div class="callout"><b>Your three indicators:</b> <b>Containment</b> measures environmental release control; <b>Mission Readiness</b> penalises unnecessarily disruptive choices; <b>EMS Control</b> rewards traceability, verification and disciplined operational control.</div>
+      <div class="callout warn"><b>Important:</b> PPE is essential for worker safety but PPE alone does not prevent environmental release. In this simulator, the primary environmental objective is engineering and operational containment.</div>
+      <div class="mission-actions"><button class="btn primary" data-go="briefing">Continue to briefing</button></div></div>
+    </section>
+
+    <section id="briefing" class="screen">
+      <div class="page"><div class="page-head"><div><div class="eyebrow">Mission briefing</div><h2>Radome Repair / Bay 04</h2><p>A composite surface-preparation task has been released in a maintenance hangar. The work generates fine particulate during sanding. A landscaped soil strip and stormwater pathway sit outside the building, so the objective is not simply to protect the technician: it is to keep the particulate inside a defined control chain from generation to final waste collection.</p></div><div class="chips"><span class="chip">Composite repair</span><span class="chip warn">Fine particulate</span><span class="chip warn">Soil & drainage pathway</span></div></div>
+      <div class="callout warn"><b>Material accuracy:</b> actual radome construction is platform-specific. Many radar-transparent radomes use glass, quartz or aramid-based systems rather than carbon fibre in RF-critical areas. This serious game uses a generic composite sanding scenario to teach particulate control. The applicable SRM/CMM, approved repair data, SDS and site procedures always govern the real task.</div>
+      <div class="theory">
+        <div class="theory-card"><h3>What the sanding process actually creates</h3><p>A cured composite is not one substance. It is a combination of reinforcing fibres, a cured polymer matrix, coatings, fillers and repair-system constituents. Abrasive machining can fracture both fibre and matrix, producing particles with different shapes and sizes. Some debris can be coarse and visible; some can be fine enough to remain airborne or be transported by ventilation and foot traffic.</p><p>That is why the simulator uses the term <b>composite particulate</b> rather than treating every fragment as “microplastic”. ECHA describes microplastics as solid plastic particles made of polymers and additives, typically below 5 mm. CFRP sanding debris is heterogeneous: some fragments are polymer-rich, some are carbon-fibre fragments and some contain both.</p></div>
+        <div class="theory-card"><h3>Why the environmental pathway matters</h3><p>Once dust crosses the repair boundary, control becomes harder. Particles can settle on the floor, move on footwear and wheels, enter floor drains, be re-aerosolised by sweeping, or leave through open doors. If they reach outdoor soil or stormwater, recovery is much more difficult than preventing the release in the first place.</p><p>The learning objective is therefore a <b>source-to-receptor model</b>: generation → airborne/surface deposition → transfer route → boundary → receiving environment. Every stage of the game closes one link in that chain.</p></div>
+        <div class="theory-card wide"><h3>The control strategy used in this game</h3>
+          <table class="learning-table"><tr><th>Stage</th><th>Question</th><th>What good control looks like</th></tr>
+          <tr><td>1. Isolation</td><td>Where could particles leave?</td><td>Defined bay, controlled access, protected drains/pathways, suitable floor protection and no unnecessary opening to outside.</td></tr>
+          <tr><td>2. Source capture</td><td>How do we stop dust becoming room contamination?</td><td>Shrouded or ventilated tooling and local extraction positioned and maintained for the actual task.</td></tr>
+          <tr><td>3. Monitoring</td><td>What happens when the control degrades?</td><td>Stop particulate generation, preserve containment, restore the control, assess any release, then restart.</td></tr>
+          <tr><td>4. Housekeeping</td><td>How do we remove settled material?</td><td>Methods that minimise resuspension, with residue collected into a controlled waste route.</td></tr>
+          <tr><td>5. Release</td><td>What evidence justifies reopening?</td><td>Physical verification, waste close-out, deviation record, corrective action where required and a defensible release decision.</td></tr></table>
+        </div>
+      </div>
+      <div class="mission-actions"><button class="btn primary" data-go="mission1">Begin Stage 1 — Isolate</button></div></div>
+    </section>
+
+    
+
+    <section id="mission1" class="screen"><div class="page"><div class="page-head"><div><div class="eyebrow">Stage 1 / Isolation</div><h2>Build the controlled repair zone</h2><p>Before the first abrasive touches the composite, decide how the work area will be separated from traffic, drains and external pathways. The goal is targeted control — not simply the largest possible exclusion zone.</p></div></div><div class="mission-layout"><div class="sim"><div class="sim-map real-photo"><div class="scene-photo stage1" id="scene1"><div class="scene-status"><b>Containment preparation</b><span>Inspect the boundary, access point, floor protection and nearby pathways before sanding starts.</span></div><div class="scene-badge">Stage 1 · Boundary control</div><div class="scene-note"><span>Controlled access</span><span>Protected transfer routes</span><span>Drain / stormwater awareness</span></div></div></div></div><div class="control-panel"><div class="scorecard" id="scorecard1"></div><div class="choice-set" data-stage="1"><button class="choice" data-option="1A"><strong>A. Full hangar shutdown + generic warning tape</strong><span>Maximum disruption, but it still does not define how dust is captured or how drains and transfer routes are protected.</span><small>Over-disruptive and technically incomplete</small></button><button class="choice" data-option="1B"><strong>B. Local controlled bay + sealed perimeter + drain/pathway protection</strong><span>Define the work zone, restrict access, protect the nearby drainage pathway, control the entry/exit point and verify the boundary before work.</span><small>Targeted control</small></button><button class="choice" data-option="1C"><strong>C. Open repair area + PPE only</strong><span>PPE addresses worker exposure, but particulate can still deposit on equipment, floors, wheels and exits.</span><small>Environmental pathway remains open</small></button></div><div class="mission-actions"><button class="btn primary" id="eval1">Evaluate Stage 1</button></div><div class="feedback" id="fb1"></div></div></div></div></section>
+
+    
+
+    <section id="theory1" class="screen"><div class="page"><div class="page-head"><div><div class="eyebrow">Learning checkpoint 1</div><h2>Containment is a pathway-control system</h2><p>A barrier is useful only if it actually interrupts the routes by which particulate can migrate.</p></div></div><div class="theory">
+<div class="theory-card"><h3>1. Start with a source–pathway–receptor map</h3><p>The source is the sanding point. The pathways are air movement, floor deposition, footwear, wheels, tools, waste containers, door openings, drains and cleaning water. The receptors are people, adjacent workstations, sensitive equipment, wastewater/stormwater and the external environment. A robust bay is designed around this map rather than around an arbitrary rectangle on the floor.</p><details class="deep"><summary>Deep dive — what should be checked before work?</summary><div class="deep-body"><ul><li>Where is the nearest door or vehicle route and can pressure changes move dust?</li><li>Are there floor drains, pits, cable trenches or cracks that can trap residue?</li><li>Will technicians or tools cross the boundary repeatedly?</li><li>Can the temporary sheeting or enclosure be damaged by hoses, ladders or movement?</li><li>Is there an agreed entry/exit and a method to prevent contaminated footwear or equipment leaving untreated?</li><li>If negative pressure or an enclosed booth is required by the task, has airflow been verified rather than assumed?</li></ul></div></details></div>
+<div class="theory-card"><h3>2. PPE and environmental containment solve different problems</h3><p>Respirators, gloves, eye protection and protective clothing can reduce occupational exposure. They do not capture a particle once it has left the tool. Environmental control therefore prioritises elimination/substitution where feasible, engineering controls and controlled work practices. PPE remains essential, but it is not a substitute for source capture or a defined boundary.</p><details class="deep"><summary>Deep dive — why “PPE only” fails the environmental objective</summary><div class="deep-body"><p>A worker can be perfectly protected while the floor, trolley wheels and ventilation system become contaminated. If the task ends with dust outside the work zone, the environmental control has failed even if the technician’s exposure remained acceptable. This distinction is central to the game.</p></div></details></div>
+<div class="theory-card"><h3>3. The boundary must be proportional, not theatrical</h3><p>Closing an entire hangar can protect readiness poorly without adding much environmental benefit if the dust source and migration routes remain uncontrolled. Conversely, a very small boundary can fail if air currents, doors or traffic routes bypass it. Good control is risk-based: large enough to manage the actual pathway, but not larger than necessary.</p></div>
+<div class="theory-card"><h3>4. Drains and water pathways deserve separate attention</h3><p>Fine particulate that settles on the floor can be mobilised later by wash water or stormwater. Protecting or isolating relevant drains before work prevents a simple housekeeping action from becoming an uncontrolled transfer to wastewater or the outside environment.</p></div>
+<div class="theory-card wide"><h3>5. EMS connection: operational control must be demonstrable</h3><p>ISO 14001:2026 is an environmental management system standard, not a prescriptive sanding procedure. The operational lesson is that an organisation should understand its environmental aspects, establish controls for significant risks, maintain those controls, monitor performance and act when deviations occur. A bay that “usually works” but is not checked, maintained or documented is weaker than a proportional control with clear responsibilities and verification.</p><div class="callout"><b>Practical takeaway:</b> Before the tool starts, you should be able to explain where the dust could go, which barriers stop each pathway, who checks them, and what condition would trigger a pause.</div></div>
+</div><div class="mission-actions"><button class="btn primary" data-go="mission2">Stage 2 — Capture at Source</button></div></div></section>
+
+    
+
+    <section id="mission2" class="screen"><div class="page"><div class="page-head"><div><div class="eyebrow">Stage 2 / Source capture</div><h2>Choose the sanding control setup</h2><p>The bay is defined. Now decide how particulate will be captured at the moment it is generated.</p></div></div><div class="mission-layout"><div class="sim"><div class="sim-map real-photo"><div class="scene-photo stage2" id="scene2"><div class="scene-status"><b>Source-capture setup</b><span>The closer the capture is to the sanding interface, the less particulate enters room air and settles outside the immediate task.</span></div><div class="scene-badge">Stage 2 · LEV / tool control</div><div class="scene-note"><span>Shroud integrity</span><span>Hose condition</span><span>Extraction verified</span></div></div></div></div><div class="control-panel"><div class="scorecard" id="scorecard2"></div><div class="choice-set" data-stage="2"><button class="choice" data-option="2A"><strong>A. Open dry sanding + general room ventilation</strong><
